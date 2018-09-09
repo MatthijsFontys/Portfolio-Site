@@ -1,0 +1,108 @@
+/* CSS Reset*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* End CSS reset */ 
+
+
+
+
+
+
+
+body{
+    background-color: #38393a;
+    
+}
+
+#main_wrapper{
+    margin: auto;
+    height: 1000px;
+    width: 1000px;
+    /*opacity: 0.4;*/
+    background-color: #292a2b;
+}
+
+#header{
+    width: 100%;
+    border-bottom: 1px solid silver;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: arial;
+    line-height: 70px;
+    background-color: #212121;
+    margin-bottom: 5%;
+}
+
+/* The 4 main icons */
+#portfolio_wrapper div{
+    transition-delay: 0.08s;
+    color: white;
+    height: 200px;
+    width: 20%;
+    float: left;
+    border-radius: 25px;
+    border: 4px solid white;
+    text-align: center;
+    font-family: arial;
+    padding-top: 20px;
+    font-size: 25px;
+    margin-left: 20%;
+    margin-bottom: 3%;
+    opacity: 0.7;
+}
+
+/* images in the 4 main icons*/
+#portfolio_wrapper div img{
+    padding-top: 20px;
+    width: 130px
+}
+
+#portfolio_wrapper div:hover{
+    opacity: 1;
+    cursor: pointer;
+}
