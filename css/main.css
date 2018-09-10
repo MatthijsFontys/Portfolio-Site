@@ -65,7 +65,7 @@ body{
     background-color: #292a2b;
 }
 
-#header{
+header{
     width: 100%;
     border-bottom: 1px solid silver;
     text-align: center;
@@ -102,19 +102,17 @@ body{
 
 /* The 4 main icons */
 #portfolio_wrapper div{
-    transition-delay: 0.08s;
+    position: relative;
     color: white;
     height: 200px;
-    width: 200px;
+    width: 180px;
     float: left;
-    border-radius: 25px;
-    border: 4px solid white;
     text-align: center;
     font-family: arial;
     padding-top: 20px;
     font-size: 25px;
     margin-left: 20%;
-    margin-bottom: 3%;
+    margin-bottom: 25px;
     opacity: 0.7;
 }
 
@@ -122,6 +120,23 @@ body{
 #portfolio_wrapper div img{
     padding-top: 20px;
     width: 130px
+}
+
+#portfolio_wrapper div hr{
+    position: absolute;
+    bottom: 1px;
+    width: 0px;
+    height: 0px;
+    border-top: 3px solid white;
+    visibility: hidden;
+}
+
+#portfolio_wrapper div:hover hr{
+    animation-name: rule;
+    animation-duration: .7s;
+    animation-fill-mode: both;
+    visibility: visible;
+    border-radius: 50px;
 }
 
 #portfolio_wrapper div:hover{
@@ -140,4 +155,9 @@ iframe{
 @keyframes slideNews{
     from{transform: translate(-750px)}
     to{transform: translateX(1000px)}
+}
+
+@keyframes rule{
+    from{width: 0%}
+    to{width: 100%}
 }
