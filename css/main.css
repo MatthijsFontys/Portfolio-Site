@@ -138,6 +138,6 @@ iframe{
 
 /* ANIMATIONS */
 @keyframes slideNews{
-    from{transform: translate(-450px)}
+    from{transform: translate(-750px)}
     to{transform: translateX(1000px)}
 }
