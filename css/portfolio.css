@@ -53,14 +53,13 @@ body{
 #content_wrapper{
     width: 800px;
     height: 100vh;
-    margin: auto;
+    margin: 0px auto;
     overflow: hidden;
 }
 
 header{
     text-align: center;
     width: 100%;
-    height: auto;
     color: white;
     font-family: arial;
     font-size: 25px;
@@ -70,6 +69,7 @@ header{
 }
 
 nav{
+    position: relative;
     display: inline-block;
     width: 100%;
     height: 30px;
@@ -84,9 +84,8 @@ nav a{
     padding: 0px 20px;
     text-decoration: none;
     color: white;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 30px;
-    text-align: center;
 }
 
 nav a:hover{
@@ -94,7 +93,69 @@ nav a:hover{
 }
 
 #portfolio_wrapper{
+position: relative;
 width: 800px;
 height: 1000px;
 margin: 0px auto;
 }
+
+iframe{
+    width: 100%;
+    height: 90vh;
+}
+
+ul{
+    transition-property: height;
+    transition-duration: .6s;
+    height: 0px;
+    position: absolute;
+    margin: auto;
+    left: 0px;
+    top: 0px; /* Header height + nav height */
+    z-index: 2;
+    background-color: rgb(50, 50 ,50);
+    overflow: hidden;
+}
+
+ul li{
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 0px 10px;
+    text-align: center;
+}
+
+ul li:hover{
+    background-color: rgb(100 , 100 ,100);
+    cursor: pointer;
+}
+
+#menu_status{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-align: right;
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+    color: white;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+img{
+    float:left;
+    width: 25px;
+    height: 25px;
+    padding: 0px 10px 0px 10px;
+    margin-top: 2px;
+}
+
+img:hover{
+    cursor: pointer;
+}
+
+.show{
+    display: inline-block;
+    height: 150px;;
+}
+
