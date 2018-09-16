@@ -8,18 +8,28 @@ let frame = document.getElementsByTagName("iframe")[0];
         menuBox.classList.toggle("show");
 }
 
+    /*
 let pdf_list = ["https://drive.google.com/file/d/1O29Q7bBiufbWy_WdqXZg66kI8j6JqQdE/preview", // Alles
                 "https://drive.google.com/file/d/1H4J86d8vDA7emQdKjSwThN-7lYN2-e0a/preview", //Ist situaties
                 "https://drive.google.com/file/d/1Xi-BpMjxOFZblp_TxrVzHcHcPxlNM59_/preview", //week 1
                 "https://drive.google.com/file/d/1U4yMpOc0L2kUYsQ5lTiH7RlrxeY4gr7t/preview", // Week 2
                 ""];// Week 3
+                */
+    /* Moet deze files gaan hosten via google drive */
+let pdf_list = [
+    "/downloads/Business_portfolio.pdf", // Alles
+    "/downloads/Ist_situaties.pdf", //Ist situaties
+    "/downloads/business_week1.pdf", // week 1
+    "/downloads/business_week2.pdf", // week 2
+    "/downloads/business_week3.pdf" // week3   
+];
     
 let download_list = [
     "Business_portfolio.pdf", // Alles
     "Ist_situaties.pdf", //Ist situaties
     "business_week1.pdf", // week 1
     "business_week2.pdf", // week 2
-    "" // week3   
+    "business_week3.pdf" // week3   
 ];
     
 let select_list = document.getElementsByTagName("li");
@@ -35,7 +45,7 @@ for(let i=0; i<select_list.length; i++){
         alert("Het bestand "+ this.innerText + " bestaat nog niet.");
         }
         // Changing the pdf download
-        document.getElementsByTagName("nav")[0].getElementsByTagName("a")[1].href = "./downloads/"+pdf_list[i];
+        document.getElementsByTagName("nav")[0].getElementsByTagName("a")[1].href = "/downloads/"+download_list[i];
     });
 }
     // Adding the menu event listener
