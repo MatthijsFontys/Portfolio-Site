@@ -1,0 +1,62 @@
+[33mcommit f38fc2364f0cd211a2c1bafed765b29d0d41b3dd[m[33m ([m[1;36mHEAD -> [m[1;32mgh-pages[m[33m)[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Sun Sep 16 15:44:24 2018 +0200
+
+    Business week 3 toegevoegd
+
+[33mcommit 52701a6c38bd6c947ddb34730a47854098d9c8a6[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/gh-pages[m[33m)[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Sun Sep 16 13:34:27 2018 +0200
+
+    Home button en ist situaties (business) toegevoegd
+
+[33mcommit 8f26c76cbd0dcd5f3924b2a47af17c706fbd1e75[m
+Merge: b30c6ac 82cfa62
+Author: MatthijsFontys <42770751+MatthijsFontys@users.noreply.github.com>
+Date:   Sun Sep 16 10:33:46 2018 +0200
+
+    Merge pull request #1 from MatthijsFontys/latest
+    
+    Latest
+
+[33mcommit 82cfa626903ad6feceda7065f610c3758f9f4ce6[m[33m ([m[1;31morigin/latest[m[33m)[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Sun Sep 16 10:30:30 2018 +0200
+
+    made it so the teacher can select a week and download only that week
+
+[33mcommit 22e0e4d6e178db9eb8a6288afa7875a6f63dfd33[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Thu Sep 13 08:56:25 2018 +0200
+
+    Menu button toegevoegd
+
+[33mcommit acd7829cc5f2527b90186429b80e50a7a550e218[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Wed Sep 12 08:31:36 2018 +0200
+
+    Download knoppen toegevoegd
+
+[33mcommit 03ed2eb3d69a6d4170664c8946de6503f9f075cb[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Mon Sep 10 21:49:56 2018 +0200
+
+    Removed button borders and made header smaller
+
+[33mcommit 128de02a5a2a132fc47a6f4fd281bf2c782c02c0[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Mon Sep 10 21:22:02 2018 +0200
+
+    Little ajustments to the header and news bar
+
+[33mcommit a3ce4ff3ab322404c353acd3cbe8a8945cf1c5db[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Sun Sep 9 20:40:43 2018 +0200
+
+    Made a beginning to the news bar
+
+[33mcommit b30c6acbaa2e0aade25bdadcbe24233a45d1ae01[m
+Author: Matthijs <matthijs.3mail@gmail.com>
+Date:   Sun Sep 9 15:59:42 2018 +0200
+
+    Made the most basic elements in the homepage
