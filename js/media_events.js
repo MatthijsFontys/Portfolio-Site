@@ -9,20 +9,20 @@ let frame = document.getElementsByTagName("iframe")[0];
 }
 
 // List of pdf's hosten on google drive, to display in the iframe
-let pdf_list = ["https://drive.google.com/file/d/1O29Q7bBiufbWy_WdqXZg66kI8j6JqQdE/preview", // Alles
-                "https://drive.google.com/file/d/1H4J86d8vDA7emQdKjSwThN-7lYN2-e0a/preview", //Ist situaties
-                "https://drive.google.com/file/d/1Xi-BpMjxOFZblp_TxrVzHcHcPxlNM59_/preview", //week 1
-                "https://drive.google.com/file/d/1U4yMpOc0L2kUYsQ5lTiH7RlrxeY4gr7t/preview", // Week 2
-                "https://drive.google.com/file/d/1HOytL0SjDVaBJTxNHgyJKU94MkhChIkD/preview"];// Week 3
+let pdf_list = ["", // Alles
+                "", // Video opdrachten
+                "", // Week 1
+                "", // Week 2
+                ""];// Week 3
 
 
     
 let download_list = [
-    "Business_portfolio.pdf", // Alles
-    "Ist_situaties.pdf", //Ist situaties
-    "business_week1.pdf", // week 1
-    "business_week2.pdf", // week 2
-    "business_week3.pdf" // week3   
+    "", // Alles
+    "", // Video opdracht (Niet downloadbaar)
+    "", // week 1
+    "", // week 2
+    ""  // week 3   
 ];
     
 let select_list = document.getElementsByTagName("li");
