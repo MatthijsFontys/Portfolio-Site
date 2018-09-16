@@ -58,6 +58,7 @@ body{
 }
 
 header{
+    position: relative;
     text-align: center;
     width: 100%;
     color: white;
@@ -66,6 +67,19 @@ header{
     height: 50px;
     line-height: 50px;
     background-color: rgba(20, 20, 20, 0.5);
+}
+
+/* Home icon */
+header img{
+position: absolute;
+top: 10px;
+left: 0px;
+opacity: 0.8;
+}
+
+header img:hover{
+cursor: pointer;
+opacity: 1;
 }
 
 nav{
