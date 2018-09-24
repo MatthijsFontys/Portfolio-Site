@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <!--Load the AJAX API-->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+    <script type = "text/javascript">
+        let text = "shinigami like apples"
+        let url = "https://data.nasa.gov/resource/gh4g-9sfh.json"
+        let mass_list = [];
+        let name_list = [];
+        let year_list = [];
+      $.getJSON(url , function(data){ 
+          for(let i = 0; i<data.length; i++){
+            mass_list.push(parseInt(data[i].mass));
+          }
+          mass_list.sort(function(a, b){return a-b});
+        
+        let elements = [];
+        let bod = document.getElementsByTagName("body")[0];
+        for(let i =0; i<data.length; i++){
+            elements[i] = document.createElement("div");
+            elements[i].style.height = mass_list[i]/5000 + "px";
+            elements[i].style.width = mass_list[i]/5000 + "px";
+            if(mass_list[i] > 300000 && mass_list[i] < 1000000){
+                elements[i].style.backgroundColor = "#1889a0";
+            }
+            else if(mass_list[i] > 100000 && mass_list[i] < 1000000){
+                elements[i].style.backgroundColor = "#62c7db";
+            }
+            else if(mass_list[i] > 1000000){
+                elements[i].style.backgroundColor = "#180375";
+            }
+            else{
+            elements[i].style.backgroundColor = "#42d7f4";
+            }
+            elements[i].style.marginRight = "5px";
+            elements[i].style.display = "inline-block";
+            elements[i].style.borderRadius = "50%";
+            elements[i].style.position = "relative";
+            bod.appendChild(elements[i]);
+        }
+      });
+        
+        </script>
+  </head>
+
+  <body>
+  </body>
+</html>
