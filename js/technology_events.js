@@ -3,7 +3,10 @@ window.onload = function(){
     // Menu closes when a choice is made.
 let frame = document.getElementsByTagName("iframe")[0];
     frame.onload = function(){menuBox.classList.remove("show");}
-
+    let maxLength = document.getElementsByTagName("li").length * 30;
+    document.getElementsByTagName("ul")[0].style.maxHeight = maxLength;
+    document.getElementsByTagName("ul")[0].style.overflow = "hidden";
+    
     function openMenu(){
         menuBox.classList.toggle("show");
 }

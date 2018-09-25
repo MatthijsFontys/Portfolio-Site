@@ -13,7 +13,9 @@ let pdf_list = ["https://drive.google.com/file/d/1O29Q7bBiufbWy_WdqXZg66kI8j6JqQ
                 "https://drive.google.com/file/d/1H4J86d8vDA7emQdKjSwThN-7lYN2-e0a/preview", //Ist situaties
                 "https://drive.google.com/file/d/1Xi-BpMjxOFZblp_TxrVzHcHcPxlNM59_/preview", //week 1
                 "https://drive.google.com/file/d/1U4yMpOc0L2kUYsQ5lTiH7RlrxeY4gr7t/preview", // Week 2
-                "https://drive.google.com/file/d/1HOytL0SjDVaBJTxNHgyJKU94MkhChIkD/preview"];// Week 3
+                "https://drive.google.com/file/d/1HOytL0SjDVaBJTxNHgyJKU94MkhChIkD/preview", // Week 3
+                "https://drive.google.com/file/d/1Q3Zz9z-iwBc3lIRjKOOrpiiNnAZdvIlG/preview" // Week 4
+               ];
 
 
     
@@ -22,7 +24,7 @@ let download_list = [
     "Ist_situaties.pdf", //Ist situaties
     "business_week1.pdf", // week 1
     "business_week2.pdf", // week 2
-    "business_week3.pdf" // week3   
+    "business_week3.pdf", // week3 
 ];
     
 let select_list = document.getElementsByTagName("li");

@@ -9,11 +9,14 @@ let frame = document.getElementsByTagName("iframe")[0];
 }
 
 // List of pdf's hosten on google drive, to display in the iframe
-let pdf_list = ["", // Alles
+let pdf_list = [
+                "", // Alles
                 "", // Video opdrachten
                 "", // Week 1
-                "", // Week 2
-                ""];// Week 3
+                "https://drive.google.com/file/d/1GMaEL_XkXxyauddfz67L6aXms6pM8vOf/preview", // Week 2
+                "", // Week 3
+                "datavisualisatie.html"  // Week 4
+               ];
 
 
     
