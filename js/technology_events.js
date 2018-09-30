@@ -39,7 +39,7 @@ for(let i=0; i<select_list.length; i++){
         alert("Het bestand "+ this.innerText + " bestaat nog niet.");
         }
         // Changing the pdf download
-        document.getElementsByTagName("nav")[0].getElementsByTagName("a")[1].href = "/downloads/"+download_list[i];
+        document.getElementsByTagName("nav")[0].getElementsByTagName("a")[1].href = "/Portfolio-Site/downloads/"+download_list[i];
     });
 }
     // Adding the menu event listener
