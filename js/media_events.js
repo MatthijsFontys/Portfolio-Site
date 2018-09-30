@@ -10,15 +10,20 @@ let frame = document.getElementsByTagName("iframe")[0];
 
 // List of pdf's hosten on google drive, to display in the iframe
 let pdf_list = [
-                "", // Alles
-                "", // Video opdrachten
+                "https://drive.google.com/file/d/1M5AqfLXZjAFFn2416i8v2_t0hG9B8_Oa/preview", // Alles
+                "https://drive.google.com/file/d/1GMaEL_XkXxyauddfz67L6aXms6pM8vOf/preview", // Video opdracht
                 "", // Week 1
-                "https://drive.google.com/file/d/1GMaEL_XkXxyauddfz67L6aXms6pM8vOf/preview", // Week 2
-                "", // Week 3
-                "datavisualisatie.html"  // Week 4
+                "datavisualisatie.html", // datavisualisatie
+                "" // We are the robots
                ];
 
-
+let frame_type_list = [
+    "pdf", // Alles ~ pdf frame
+    "vid", // Video opdracht ~ video frame
+    "pdf", // No logo ~pdf frame
+    "web", // Data visualisatie ~ web ??
+    "pdf"  // We are the robots ~ ??
+]
     
 let download_list = [
     "", // Alles
@@ -32,6 +37,8 @@ let select_list = document.getElementsByTagName("li");
 for(let i=0; i<select_list.length; i++){
     // Add event listeners to the week list
     select_list[i].addEventListener('click', function(){
+        // change the pdf frame type
+        frame.className =  frame_type_list[i] + "_frame";
         // if the file exists
         if(pdf_list[i] != ""){
         frame.src=pdf_list[i];

@@ -189,21 +189,25 @@ img:hover{
     height: 330px;
 }
 
-
-.vid_wrapper{
-    width:640px;
-    height: 480px; 
-    margin: auto;
-    
-}
-
+        /* DIFFERENT FRAME CLASSES */
+/* Iframe for pdf */
 .pdf_frame{
     width: 100%;
     height: 90vh;
 }
 
+/* Iframe for vid */
 .vid_frame{
-    width: 100%;
-    height: 100%;
+    display: block;
+    margin: auto;
+    width: 500px;
+    height: 335px;
 }
 
+/* Iframe for web */
+.web_frame{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    height: 85vh;
+}
