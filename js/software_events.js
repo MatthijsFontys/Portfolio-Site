@@ -9,23 +9,27 @@ let frame = document.getElementsByTagName("iframe")[0];
 }
 
 // List of pdf's hosten on google drive, to display in the iframe
-let pdf_list = ["https://drive.google.com/file/d/1O29Q7bBiufbWy_WdqXZg66kI8j6JqQdE/preview", // Alles
-                "https://drive.google.com/file/d/1H4J86d8vDA7emQdKjSwThN-7lYN2-e0a/preview", //Ist situaties
-                "https://drive.google.com/file/d/1Xi-BpMjxOFZblp_TxrVzHcHcPxlNM59_/preview", //week 1
-                "https://drive.google.com/file/d/1U4yMpOc0L2kUYsQ5lTiH7RlrxeY4gr7t/preview", // Week 2
-                "https://drive.google.com/file/d/1HOytL0SjDVaBJTxNHgyJKU94MkhChIkD/preview", // Week 3
-                "https://drive.google.com/file/d/1Q3Zz9z-iwBc3lIRjKOOrpiiNnAZdvIlG/preview" // Week 4
+let pdf_list = ["https://drive.google.com/file/d/1GuSnm4JwJy49y9wpv3mRmwLYjTBrsVq0/preview", // Alles
+                "", // Watervalmethode
+                "", // Ontwerpfase
+                "https://drive.google.com/file/d/15lf988Zb1ckQ5-zwyskVOjz-YIUjeh3x/preview", // Boter kaas en eieren
+                "" // Memory
                ];
 
-
+let software_downloads = [
+    "",
+    "",
+    "",
+    "BoterKaasEierenPackage.zip", // Boter kaas en eieren
+    "MemoryPackage.zip" // Memory
+]
     
 let download_list = [
-    "Business_portfolio.pdf", // Alles
-    "Ist_situaties.pdf", //Ist situaties
-    "business_week1.pdf", // week 1
-    "business_week2.pdf", // week 2
-    "business_week3.pdf", // week3 
-    "business_week4.pdf" // week4
+    "software_portfolio.pdf", // Alles
+    "", // Watervalmethode
+    "", // Ontwerpfase 
+    "", // Boter kaas en eieren
+    "" // Memory
 ];
     
 let select_list = document.getElementsByTagName("li");
@@ -42,6 +46,12 @@ for(let i=0; i<select_list.length; i++){
         }
         // Changing the pdf download
         document.getElementsByTagName("nav")[0].getElementsByTagName("a")[1].href = "/downloads/"+download_list[i];
+        // Als er een software download is
+        if(software_downloads[i] != ""){
+            // Getting the 'download programma' button
+        let downloadLink = document.getElementsByTagName("nav")[0].getElementsByTagName("a")[0];
+            downloadLink.href = "/downloads/"+software_downloads[i];
+        }
     });
 }
     // Adding the menu event listener
@@ -49,7 +59,7 @@ let menuBox = document.getElementsByTagName("ul")[0];
 let boxLen = document.getElementsByTagName("li").length;
     // Setting the max height of the dropdown menu
     menuBox.style.maxHeight = 30*boxLen+"px";
-let menuIcon = document.getElementsByTagName("img")[1];
+let menuIcon = document.getElementsByTagName("img")[2];
 menuIcon.addEventListener('click', function(){
         openMenu();
     });
