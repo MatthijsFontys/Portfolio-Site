@@ -59,7 +59,7 @@ let menuBox = document.getElementsByTagName("ul")[0];
 let boxLen = document.getElementsByTagName("li").length;
     // Setting the max height of the dropdown menu
     menuBox.style.maxHeight = 30*boxLen+"px";
-let menuIcon = document.getElementsByTagName("img")[2];
+let menuIcon = document.getElementsByTagName("img")[3];
 menuIcon.addEventListener('click', function(){
         openMenu();
     });

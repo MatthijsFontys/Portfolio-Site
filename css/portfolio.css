@@ -119,11 +119,25 @@ nav a:hover{
     height: 40px;
     width: 40px;
     margin: 0px;
-    
 }
 
 #github-icon:hover{
     opacity: 1;
+}
+
+#pastebin-icon{ 
+    position: absolute;
+    right: 50px;
+    opacity: 0.8;
+    padding: 5px 10px 5px 0px;
+    margin: 0px;
+    height: 40px;
+    width: 40px;
+    margin: 0px;
+}
+
+#pastebin-icon:hover{
+    opacity:1;
 }
 
 #portfolio_wrapper{
