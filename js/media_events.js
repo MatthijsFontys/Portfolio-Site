@@ -14,7 +14,7 @@ let pdf_list = [
                 "https://drive.google.com/file/d/1GMaEL_XkXxyauddfz67L6aXms6pM8vOf/preview", // Video opdracht
                 "", // Week 1
                 "datavisualisatie.html", // datavisualisatie
-                "" // We are the robots
+                "https://console.dialogflow.com/api-client/demo/embedded/79d70ccc-f3ea-4389-84ad-844c83e17b8f" // We are the robots
                ];
 
 let frame_type_list = [
@@ -22,7 +22,7 @@ let frame_type_list = [
     "vid", // Video opdracht ~ video frame
     "pdf", // No logo ~pdf frame
     "web", // Data visualisatie ~ web ??
-    "pdf"  // We are the robots ~ ??
+    "web"  // We are the robots ~ ??
 ]
     
 let download_list = [
