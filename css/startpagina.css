@@ -83,12 +83,35 @@ article img:hover{
     margin: 0px auto;
 }
 
-#newTab{
-    display: block;
-    color: white;
-    padding: 10px 20px;
-    font-size: 15px;
+h1{
+display: block;
+margin: 50px auto;
+margin-bottom: 10px;
+font-weight: bold;
+font-size: 35px !important;
+text-align: center;
+color: white;
+font-size: 20px;
 }
+
+div{
+width: 110px;
+display: block;
+margin: 0px auto;
+margin-bottom: -50px;
+font-weight: bold;
+font-size: 15px !important;
+text-align: center;
+color: white;
+font-size: 20px;
+padding: 10px;
+}
+
+div:hover{
+   background-color: #555555;
+   cursor: pointer;
+}
+
 
 
 
