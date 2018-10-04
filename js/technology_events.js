@@ -13,9 +13,10 @@ let frame = document.getElementsByTagName("iframe")[0];
 
 // List of pdf's hosten on google drive, to display in the iframe
 let pdf_list = ["https://drive.google.com/file/d/1xQCrUkqlFZmkGToJm-YYo_A8q6FzQVvh/preview", // Alles
-                "", //week 1
-                "", // Week 2
-                ""];// Week 3
+                "", // Programmeer opdrachten
+                "https://drive.google.com/file/d/1dFQx0lg8T-09T5Sy_y4CSLn7yFqVNyz1/preview", // Module 1
+                "https://drive.google.com/file/d/1VMT7pEB1DxivQrSTyICt2RB_jnjvd1b7/preview", // Module 2
+                "https://drive.google.com/file/d/1DI16Oqkd3H65R8Z9uoA7idkb6CEZIwfY/preview"];// Module 3
 
 
     
