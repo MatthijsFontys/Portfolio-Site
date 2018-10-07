@@ -77,10 +77,47 @@ article img:hover{
     cursor: pointer;
 }
 
+/* GOOGLE CUSTOME SEARCH ENGINE outer*/
 #___gcse_0{
-    width: 300px;
-    display: block;
-    margin: 0px auto;
+    height: auto;
+    width: 400px;
+    margin: auto;
+}
+
+/* Search engine inner*/
+.gsc-control-cse{
+      position: relative;
+      background-color: #292A2b !important;
+      border: 0px solid #292A2b !important;
+}
+
+/* Search box */
+.gsc-input input{
+    background-color: 38393a !important;
+    color: blue !important;
+}
+
+/* Search button */
+button.gsc-search-button{
+    background-color: #38393a;
+    border-width: 0px !important;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button.gsc-search-button:hover{
+    background-color: #5a5d60;
+    cursor: pointer;
+}
+
+button.gsc-search-button:active{
+    background-color: #5a5d60;
+    cursor: pointer;
+}
+
+button.gsc-search-button:focus{
+    background-color: #5a5d60;
+    cursor: pointer;
 }
 
 h1{
@@ -94,7 +131,7 @@ color: white;
 font-size: 20px;
 }
 
-div{
+#btnSwitch{
 width: 110px;
 display: block;
 margin: 0px auto;
@@ -107,12 +144,13 @@ font-size: 20px;
 padding: 10px;
 }
 
-div:hover{
+#btnSwitch:hover{
    background-color: #555555;
    cursor: pointer;
 }
 
 a{font-size: 0px;}
+
 
 
 
