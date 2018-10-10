@@ -15,7 +15,8 @@ let pdf_list = ["https://drive.google.com/file/d/1O29Q7bBiufbWy_WdqXZg66kI8j6JqQ
                 "https://drive.google.com/file/d/1U4yMpOc0L2kUYsQ5lTiH7RlrxeY4gr7t/preview", // Week 2
                 "https://drive.google.com/file/d/1HOytL0SjDVaBJTxNHgyJKU94MkhChIkD/preview", // Week 3
                 "https://drive.google.com/file/d/1Q3Zz9z-iwBc3lIRjKOOrpiiNnAZdvIlG/preview", // Week 4
-                "https://drive.google.com/file/d/1fDBUFedw-ao1PL4fujt3zF3ulSuvMRau/preview" // Week 5
+                "https://drive.google.com/file/d/1fDBUFedw-ao1PL4fujt3zF3ulSuvMRau/preview", // Week 5
+                "https://drive.google.com/file/d/1xu5iL3CKlnLc03Atr5oHvUVzha47EMFx/preview" // Week 6
                ];
 
 
