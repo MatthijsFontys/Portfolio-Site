@@ -69,6 +69,10 @@ article img
     padding: 10px 20px;
 }
 
+article img.circle{
+    border-radius: 50%;
+}
+
 article img:hover{
     width: 120px;
     height: 120px;
@@ -94,7 +98,6 @@ article img:hover{
 /* Search box */
 .gsc-input input{
     background-color: 38393a !important;
-    color: blue !important;
 }
 
 /* Search button */
